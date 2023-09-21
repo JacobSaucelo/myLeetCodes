@@ -1,0 +1,9 @@
+{
+  "name": "productOfArrayExceptSelf",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
