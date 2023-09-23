@@ -2,9 +2,24 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function (strs) {};
+var longestCommonPrefix = function (strs) {
+  let prefix = "";
 
-// console.log(longestCommonPrefix(["flower", "flow", "flight"]));
+  if (strs.length < 0) return prefix;
+
+  for (let i = 0; i < strs[0].length; i++) {
+    let character = strs[0][i];
+
+    for (let j = 0; j < strs.length; j++) {
+      if (character !== strs[j][i]) return prefix;
+    }
+    prefix = prefix + character;
+  }
+
+  return prefix;
+};
+
+console.log(longestCommonPrefix(["flower", "flow", "flight"]));
 console.log(longestCommonPrefix(["dog", "racecar", "car"]));
 
 // Example 1:
