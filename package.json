@@ -1,0 +1,8 @@
+{
+  "name": "leetCodes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JacobSaucelo/myLeetCodes.git",
+  "author": "csthesisgroup <jacobsaucelo32@gmail.com>",
+  "license": "MIT"
+}
